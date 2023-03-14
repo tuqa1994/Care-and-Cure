@@ -82,7 +82,7 @@ class _LoginPageState extends State<LoginPage> {
                                       content: Text('Not Authentication')));
                               //
                             } else if (response) {
-                              Navigator.of(context).pushNamed('services');
+                              Navigator.of(context).pushReplacementNamed('services');
                             }
                           },
                           style: ElevatedButton.styleFrom(
